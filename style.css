@@ -1,0 +1,50 @@
+
+
+h1, h2 {
+    font-weight: 600; /* Usando peso médio para títulos */
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+/* Aplicando a fonte Poppins no corpo da página */
+body {
+    font-family: "Merienda", serif;
+    background-color: rgb(232, 232, 232);
+    color: rgb(17, 17, 17);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Configura o cabeçalho do projeto */
+header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+
+}
+
+/* Foto de perfil */
+
+section {
+    margin:20px;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+footer{
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
