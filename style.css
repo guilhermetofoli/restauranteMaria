@@ -1,50 +1,44 @@
-
-
-h1, h2 {
-    font-weight: 600; /* Usando peso médio para títulos */
-}
-
-.title {
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 20px;
-}
-
-/* Aplicando a fonte Poppins no corpo da página */
-body {
-    font-family: "Merienda", serif;
-    background-color: rgb(232, 232, 232);
-    color: rgb(17, 17, 17);
-    line-height: 1.6;
+/* Resetando margens e padding */
+body, html {
     margin: 0;
     padding: 0;
+    height: 100%;
+    font-family: "Merienda", serif;
 }
 
-/* Configura o cabeçalho do projeto */
-header {
-    background: #222;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    
-
+/* Section fixa no topo */
+.top-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; /* Altura da barra */
+    display: flex;
+    z-index: 1000; /* Garantir que fique acima de outros conteúdos */
 }
 
-/* Foto de perfil */
-
-section {
-    margin:20px;
-    padding: 20px;
-    background: white;
-    border-radius: 15px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-
+/* Definindo as cores da bandeira da Itália */
+.green {
+    background-color: #009246; /* Cor verde */
+    flex: 1;
 }
 
-footer{
-    background: #222;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    
+.white {
+    background-color: #F4F5F0; /* Cor branca */
+    flex: 1;
+}
+
+.red {
+    background-color: #CE2B37; /* Cor vermelha */
+    flex: 1;
+}
+
+/* Garantir que o conteúdo abaixo da barra não fique escondido */
+.conteudo {
+    padding-top: 60px; /* Espaço para não ficar coberto pela barra */
+}
+
+.conteudo h1 {
+    font-weight: 700;
+
 }
