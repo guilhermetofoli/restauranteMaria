@@ -4,7 +4,7 @@ body, html {
     padding: 0;
     height: 100%;
     font-family: "Merienda", serif;
-    background-color: rgb(236, 220, 189);
+    background-color: white;
 }
 
 /* Section fixa no topo */
@@ -68,9 +68,8 @@ body, html {
     flex-direction: column; /* Organiza os itens verticalmente */
     align-items: center; /* Centraliza os itens */
     width: 250px; /* Define a largura para cada prato */
-    padding: 10px;
-    border: 1px solid #ccc;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.4);
     background-color: #fff;
 }
 
@@ -78,8 +77,7 @@ body, html {
     width: 200px;   /* Ajusta a imagem para ocupar toda a largura da div */
     height: 200px;  /* Mantém a proporção da imagem */
     border-radius: 8px;  /* Adiciona bordas arredondadas */
-    border: solid 5px rgb(255, 255, 255);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    border: solid 1px black;
 }
 
 /* Estilo para o título */
@@ -97,6 +95,7 @@ body, html {
     overflow-wrap: break-word; /* Para garantir que palavras longas quebrem corretamente */
     white-space: normal;  /* Permite que o texto quebre em várias linhas */
     margin: 5px 0;
+    cursor: pointer;
 }
 
 /* Estilo para o preço (h4) */

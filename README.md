@@ -1,76 +1,105 @@
 # Cucina di Maria #
+
 # ESPECIALIDADE #
-- Culinária Italiana;
+- Culinária Italiana
+
 # TEMA #
-- Refletir a cor da bandeira da Itália no cardápio para representar a personliadade do restaurante;
+- Refletir a cor da bandeira da Itália no cardápio para representar a personliadade do restaurante
+
 # FONTE #
-- Merienda (Google Fonts);
+- Merienda (Google Fonts)
+
 # Nome dos pratos #: 
- - Nomes de cidades da Itália e monumentos;
-
-  - Spaghetti
-  - lasanha Bolognesa
-
- - Nome do prato.
- - Descrição breve.
- - Preço.
- - Foto do Prato (se possível)
+ - Nomes de cidades da Itália e monumentos
 
 # OBJETIVO #
-- Responsivo;
-- Facilidade na Navegação;
+- Responsivo
+- Facilidade na Navegação
 
 # TAREFA #
-- Com base no case de Maria, os alunos devem:
+Com base no case de Maria, os alunos devem:
 - Escolher um tipo de restaurante e definir sua identidade visual.
 - Criar um cardápio online usando HTML e CSS.
 - Gerar um link de navegação com a ajuda do Github Pages.
-- Garantir que o cardápio seja responsivo e atenda às necessidades da - persona (Maria) e dos clientes.
+- Garantir que o cardápio seja responsivo e atenda às necessidades da personagem (Maria) e dos clientes.
 - Exemplo de Nomes e Temas (sugestões para os alunos):
+
+# REFERÊNCIAS #
+- https://www.viavini.com.br
+- https://www.barolotrattoria.com.br
 
 
 # ENTRADAS #
 
 ## Bruschetta di Toscana ##
-DESC:Uma verdadeira iguaria italiana: fatias de pão rústico levemente tostadas, cobertas com tomates frescos, manjericão, azeite de oliva extra virgem e um toque de alho. Simples, saborosa e sempre fresca, a bruschetta é a entrada perfeita para começar sua refeição com um pedacinho da Itália.
-PREÇO:R$40
+Descrição: Fatias de pão rústico levemente tostadas, cobertas com tomates frescos, manjericão, azeite de oliva extra virgem e um toque de alho.
+Preço: R$40,00
 OBS: Serve 1 pessoa
 
 ## Carpaccio alla Veneza ##
-DESC: Finas fatias de carne bovina crua, delicadamente temperadas com azeite de oliva extra virgem, limão, lascas de queijo parmesão e rúcula fresca. Uma entrada sofisticada e refrescante, que reflete a elegância e a simplicidade da culinária italiana.
-PREÇO: R$49,90
+Descrição: Finas fatias de carne bovina crua, delicadamente temperadas com azeite de oliva extra virgem, limão, lascas de queijo parmesão e rúcula fresca.
+Preço: R$49,90
+OBS: Serve 1 pessoa
 
-
-# PRATOS #
+# PRATO PRINCIPAL #
 
 ## Lasanha a Bolognesa ##
-DESC: Deliciosas camadas de massa fresca, recheadas com um suculento molho à bolonhesa feito com carne de qualidade, tomate e ervas finas. Coberta com queijo derretido e gratinada no forno, esta lasanha é o sabor da tradição italiana em cada garfada.
-PREÇO: R$120,00
+Descrição: Deliciosas camadas de massa fresca, recheadas com um suculento molho à bolonhesa feito com carne de qualidade, tomate e ervas finas. Coberta com queijo derretido e gratinada no forno.
+Preço: R$120,00
 OBS: Serve 3 Pessoas
 
 ## Fettuccine di Roma ##
-DESC: Massa fresca e artesanal, servida com um molho tradicional italiano, preparado com ingredientes selecionados e respeitando os sabores genuínos da Itália. Uma receita que reflete a simplicidade e a autenticidade da culinária italiana.
-PREÇO: R$86
+Descrição: Massa delicadamente envolvida em um cremoso molho de ovos, queijo pecorino, pancetta crocante e pimenta-do-reino
+Preço: R$86,00
 OBS: Serve 2 Pessoas
 
 ## Ravioli di Gênova ##
-DESC: Delicados quadrados de massa fresca, recheados com uma combinação de ingredientes autênticos como queijo, carne ou vegetais, preparados de acordo com a tradição italiana. Cozidos à perfeição e servidos com um molho especial, trazendo à mesa o sabor verdadeiro da culinária clássica da Itália.
-PREÇO: R$90
+Descrição: Delicados quadrados de massa fresca, recheados com uma combinação de ingredientes autênticos como queijo, carne ou vegetais. Cozidos à perfeição e servidos com um molho especial.
+Preço: R$90,00
 OBS: Serve 2 Pessoas
 
 ## Spaghetti alla Nápoles   ##
-DESC: Tradicional massa italiana, longa e fina, servida com molho de tomate fresco, ervas aromáticas e azeite de oliva extra virgem, ou com seu molho preferido. Simples e saboroso, o spaghetti é um ícone da culinária italiana, trazendo à mesa a verdadeira essência da Itália em cada fio de massa.
-PREÇO: R$75
+Descrição: Tradicional massa italiana, longa e fina, servida com molho de tomate fresco, ervas aromáticas e azeite de oliva extra virgem, ou com seu molho preferido.
+Preço: R$75,00
 OBS: Serve 2 Pessoas
 
 # SOBREMESAS #
 
 ## Tiramisù di Veneto ##
-DESC: Um dos mais famosos e amados doces italianos: camadas de biscoitos champagne embebidos em café, intercaladas com um creme suave de mascarpone, finalizadas com cacau em pó. Uma sobremesa irresistível, equilibrada entre o doce e o amargo, que traz o sabor da Itália em cada colherada.
-PREÇO: R$29
+Descrição: Camadas de biscoitos champagne embebidos em café, intercaladas com um creme suave de mascarpone, finalizadas com cacau em pó. 
+Preço: R$29,00
 OBS: Serve 1 Pessoa
 
 ## Gelato di Florença ##
-DESC: O verdadeiro gelato italiano é mais cremoso e saboroso que o sorvete comum, feito com ingredientes frescos e de alta qualidade. Com menos ar e gordura, oferece uma textura suave e um sabor concentrado. Disponível em diversos sabores autênticos, é a sobremesa perfeita para experimentar o sabor genuíno da Itália.
-PREÇO: R$20
+Descrição: O verdadeiro gelato italiano é mais cremoso e saboroso que o sorvete comum, feito com ingredientes frescos e de alta qualidade. Com menos ar e gordura, oferece uma textura suave e um sabor concentrado. Disponível em diversos sabores autênticos, é a sobremesa perfeita para experimentar o sabor genuíno da Itália.
+Preço: R$20,00
 OBS: Serve 1 Pessoa
+
+## Affogato di Milão ##
+Descrição: Espresso servido sobre uma bola de sorvete de baunilha.
+Preço: R$26,00
+OBS: Serve 1 Pessoa
+
+# BEBIDAS #
+
+## Cafés ##
+
+## Expresso di Turim ##
+Descrição: Café forte e encorpado, servido em pequenas doses.
+Preço: R$6,00
+
+## Cappuccino di Milão ##
+Descrição: Espresso com leite vaporizado e espuma de leite
+Preço: R$10,00
+
+## Vinhos ##
+
+## Barolo Bussia Prunotto ##
+Descrição: Barolo Bussia tem coloração vermelha rubi brilhante e vibrante com reflexos granada. O nariz é complexo com aromas florais e notas de frutas vermelhas. Um paladar intenso com taninos doces e sedosos leva a um final longo e harmonioso.
+Preço: R$595,00
+
+## Brancaia Chianti ##
+Descrição: Aroma frutado de cerejas maduras espalha-se pela taça até que desabrocham nuances florais e de menta. Em boca, as frutas mostram-se ainda mais presentes, e unem-se ao anis e às nuances terrosas da Sangiovese. O final é fresco e estruturado - um convite à próxima taça.
+Preço: R$790,00
+
+
