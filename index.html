@@ -12,6 +12,15 @@
     
 </head>
 <body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
     <!-- Section fixa no topo -->
     <section class="bandeira">
         <div class="red"></div>
@@ -24,17 +33,18 @@
         <h1>Cucina di Maria</h1>
 
     <!-- Seção de pratos -->
-        <h2 class="entradas">Entradas</h2>
         <section class="pratos" >
             <div class="comida">
-                <img src="./img/Bruschetta.jpg" alt="Comida 1">
-                <h2>Bruschetta di Toscana</h2>
-                <h3>Descrição</h3>
-                <h4>R$40,00</h4>
+            <img src="comida1.jpg" alt="Comida 1">
+            <h2>Macarrão</h2>
+            <h3>descricao</h3>
+            <h4>R$50</h4>
+
+
             </div>
             
             <div class="comida">
-            <img src="img/com2.jpg" alt="Comida 2">
+            <img src="comida2.jpg" alt="Comida 2">
             <h2>Spaghetti</h2>
             <h3>Tradicional massa italiana, longa e fina, servida com molho de tomate fresco, ervas aromáticas e azeite de oliva extra virgem, ou com seu molho preferido.
                 Simples e saboroso, o spaghetti é um ícone da culinária italiana, trazendo à mesa a verdadeira essência da Itália em cada fio de massa.</h3>
@@ -42,7 +52,7 @@
             </div>
 
             <div class="comida">
-            <img src="img/com2.jpg" alt="Comida 2">
+            <img src="comida3.jpg" alt="Comida 2">
             <h2>Lasagna</h2>
             <h3>Deliciosas camadas de massa fresca, recheadas com um suculento molho à bolonhesa feito com carne de qualidade, tomate e ervas finas.
                 Coberta com queijo derretido e gratinada no forno, esta lasanha é o sabor da tradição italiana em cada garfada.</h3>
@@ -54,5 +64,52 @@
         <p>Rolar p/ baixo...</p>
         <div style="height: 2000px;">cardápio...</div>
     </div>
+
+<footer>
+
+    <div id="rodape">
+
+        <div id="boxfooter">
+
+            <div id="footer-esq">
+                <div class="texto1"> Endereço </div>
+            </div>
+
+            <div id="footer-centro">
+                <div class="texto1"> Horário de Funcionamento</div>
+            </div>
+
+            <div id="footer-dir">
+                <div class="texto1"> Teste</div>
+            </div>
+
+        </div>
+
+    </div>
+</footer>
+
 </body>
+
+<script>
+    // Detecta o rolar da página
+    window.onscroll = function() {
+        // Obtém a posição do scroll
+        var scrollPosition = window.scrollY;
+
+        // Seleciona a bandeira e a navbar
+        var bandeira = document.querySelector('.bandeira');
+        var navbar = document.querySelector('.navbar');
+
+        // Se a página for rolada para baixo, esconda a bandeira e mostre a navbar
+        if (scrollPosition > 100) { // Quando o usuário rolar mais de 100px
+            bandeira.classList.add('escondido'); // Esconde a bandeira
+            navbar.style.display = 'block'; // Exibe a navbar
+            navbar.classList.add('fade-in'); // Aplica a transição suave
+        } else {
+            bandeira.classList.remove('escondido'); // Mostra a bandeira novamente
+            navbar.style.display = 'none'; // Esconde a navbar
+        }
+    }
+</script>
+
 </html>
