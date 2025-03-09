@@ -35,7 +35,7 @@
     <!-- Seção de pratos -->
         <section class="pratos" >
             <div class="comida">
-            <img src="comida1.jpg" alt="Comida 1">
+            <img src="./img/comida1.jpg" alt="Comida 1">
             <h2>Macarrão</h2>
             <h3>descricao</h3>
             <h4>R$50</h4>
@@ -44,7 +44,7 @@
             </div>
             
             <div class="comida">
-            <img src="comida2.jpg" alt="Comida 2">
+            <img src="./img/comida2.jpg" alt="Comida 2">
             <h2>Spaghetti</h2>
             <h3>Tradicional massa italiana, longa e fina, servida com molho de tomate fresco, ervas aromáticas e azeite de oliva extra virgem, ou com seu molho preferido.
                 Simples e saboroso, o spaghetti é um ícone da culinária italiana, trazendo à mesa a verdadeira essência da Itália em cada fio de massa.</h3>
@@ -52,7 +52,7 @@
             </div>
 
             <div class="comida">
-            <img src="comida3.jpg" alt="Comida 2">
+            <img src="./img/comida3.jpg" alt="Comida 2">
             <h2>Lasagna</h2>
             <h3>Deliciosas camadas de massa fresca, recheadas com um suculento molho à bolonhesa feito com carne de qualidade, tomate e ervas finas.
                 Coberta com queijo derretido e gratinada no forno, esta lasanha é o sabor da tradição italiana em cada garfada.</h3>
@@ -103,11 +103,10 @@
         // Se a página for rolada para baixo, esconda a bandeira e mostre a navbar
         if (scrollPosition > 100) { // Quando o usuário rolar mais de 100px
             bandeira.classList.add('escondido'); // Esconde a bandeira
-            navbar.style.display = 'block'; // Exibe a navbar
-            navbar.classList.add('fade-in'); // Aplica a transição suave
+            navbar.classList.add('visible'); // Torna a navbar visível
         } else {
             bandeira.classList.remove('escondido'); // Mostra a bandeira novamente
-            navbar.style.display = 'none'; // Esconde a navbar
+            navbar.classList.remove('visible'); // Torna a navbar invisível
         }
     }
 </script>
