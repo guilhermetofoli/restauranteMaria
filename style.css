@@ -4,7 +4,7 @@ body, html {
     padding: 0;
     height: 100%;
     font-family: "Merienda", serif;
-    background-color: rgb(218, 206, 182);
+    background-color: rgb(240, 240, 240);
 }
 
 /* Navbar básica */
@@ -20,7 +20,7 @@ body, html {
     justify-content: center;
     align-items: center;
     opacity: 0; /* Inicialmente invisível */
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Transição suave */
+    transition: opacity 1s ease-out, transform 1s ease-out; /* Transição suave */
     transform: translateY(-100%); /* Inicialmente fora da tela */
 }
 
@@ -112,7 +112,7 @@ body, html {
     flex-direction: column; /* Organiza os itens verticalmente */
     align-items: center; /* Centraliza os itens */
     width: 250px; /* Define a largura para cada prato */
-    padding: 10px;
+    padding: 20px;
     border: 1px solid #ccc;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
     background-color: #fff;
@@ -130,7 +130,7 @@ body, html {
 .comida h2 {
     font-weight: 1000; /* Negrito */
     font-size: 20px;
-    margin: 10px 0;
+    margin: 30px 0;
 }
 
 /* Estilo para a descrição (h3) */
@@ -140,7 +140,7 @@ body, html {
     word-wrap: break-word;  /* Quebra palavras longas para evitar o estouro */
     overflow-wrap: break-word; /* Para garantir que palavras longas quebrem corretamente */
     white-space: normal;  /* Permite que o texto quebre em várias linhas */
-    margin: 5px 0;
+    margin: 20px 0;
 }
 
 /* Estilo para o preço (h4) */
@@ -148,14 +148,16 @@ body, html {
     color: #009246; /* Cor do preço */
     font-weight: 1000; /* Negrito */
     font-size: 25px;
-    margin: 10px 0;
+    margin: 30px 0;
 }
+
 
 #rodape {
     width: 100%;
     height: auto;
     margin: 0 auto;
     padding: 60px 0;
+    margin-top: 50px;
     background: #800020;  /* bAzul marinho 2C3E50 */
     color: white;
     display: flex;

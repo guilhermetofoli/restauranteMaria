@@ -58,7 +58,7 @@ Descrição: Delicados quadrados de massa fresca, recheados com uma combinação
 Preço: R$90,00
 OBS: Serve 2 Pessoas
 
-## Spaghetti alla Nápoles   ##
+## Spaghetti alla Nápoles ##
 Descrição: Tradicional massa italiana, longa e fina, servida com molho de tomate fresco, ervas aromáticas e azeite de oliva extra virgem, ou com seu molho preferido.
 Preço: R$75,00
 OBS: Serve 2 Pessoas
