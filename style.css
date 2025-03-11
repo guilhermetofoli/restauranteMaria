@@ -7,76 +7,65 @@ body, html {
     background-color: rgb(240, 240, 240);
 }
 
-/* Navbar básica */
+/* Estilo da navbar */
 .navbar {
-    display: none; /* Inicialmente invisível */
-    position: fixed;
+    position: fixed; /* Fixar a navbar no topo da página */
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #800020; /* Cor do rodapé */
-    z-index: 2000; /* Fica acima da bandeira */
-    height: 60px; /* Altura da navbar */
-    justify-content: center;
-    align-items: center;
-    opacity: 0; /* Inicialmente invisível */
-    transition: opacity 1s ease-out, transform 1s ease-out; /* Transição suave */
-    transform: translateY(-100%); /* Inicialmente fora da tela */
-}
-
-/* Quando a navbar for visível */
-.navbar.visible {
-    display: flex; /* Exibe a navbar */
-    opacity: 1; /* Torna a navbar visível */
-    transform: translateY(0); /* Ela entra da parte superior */
-}
-
-.navbar ul {
-    display: flex;
-    justify-content: center;  /* Centraliza os itens */
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar li {
-    list-style: none;
-}
-
-.navbar a {
-    text-decoration: none;
+    background-color: #800020; /* Cor de fundo da navbar */
     color: white;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 15px;
+    padding: 10px 0; /* Espaçamento inicial */
+    font-size: 1.2rem; /* Tamanho da fonte inicial */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombras sutis para dar profundidade */
+    z-index: 1000; /* Garante que a navbar fique acima de outros elementos */
+    transition: all 0.3s ease; /* Transição suave para as mudanças */
+    height: 40px; /* Altura inicial da navbar */
+    display: flex; /* Flexbox para centralizar os itens */
+    align-items: center; /* Alinha os itens verticalmente */
+    justify-content: center; /* Centraliza os itens horizontalmente */
 }
 
-/* Section fixa no topo */
-.bandeira {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 45px; /* Altura da barra */
-    display: flex;
-    z-index: 1000; /* Garantir que fique acima de outros conteúdos */
+/* Estilo da lista de itens de navegação */
+.navbar ul {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Organiza os itens da lista em linha */
+    justify-content: center; /* Alinha os itens no centro */
+    padding: 0;
+    margin: 0;
 }
 
-/* Definindo as cores da bandeira da Itália */
-.green {
-    background-color: #009246; /* Cor verde */
-    flex: 1;
+/* Estilo dos itens da lista */
+.navbar li {
+    margin: 0 15px; /* Espaçamento entre os itens */
 }
 
-.white {
-    background-color: #F4F5F0; /* Cor branca */
-    flex: 1;
+/* Estilo para os links */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    transition: color 0.3s ease; /* Transição suave para a cor */
 }
 
-.red {
-    background-color: #CE2B37; /* Cor vermelha */
-    flex: 1;
+/* Efeito de hover nos links */
+.navbar a:hover {
+    color: #ffe134; /* Cor dourada ao passar o mouse */
 }
+
+/* Estilo do menu ativo (caso tenha) */
+.navbar a.active {
+    color: #ffe134; /* Cor dourada quando ativo */
+}
+
+/* Reduz a altura da navbar quando rola para baixo */
+.navbar.shrink {
+    height: 30px; /* Altura reduzida da navbar */
+    padding: 5px 0; /* Menor padding */
+    font-size: 1rem; /* Menor tamanho de fonte */
+}
+
 
 /* Garantir que o conteúdo abaixo da barra não fique escondido */
 .conteudo {
