@@ -160,24 +160,22 @@
 </body>
 
 <script>
-    // Detecta o rolar da página
-    window.onscroll = function() {
-        // Obtém a posição do scroll
-        var scrollPosition = window.scrollY;
+// Detecta o rolar da página
+window.onscroll = function() {
+    // Obtém a posição do scroll
+    var scrollPosition = window.scrollY;
 
-        // Seleciona a bandeira e a navbar
-        var bandeira = document.querySelector('.bandeira');
-        var navbar = document.querySelector('.navbar');
+    // Seleciona a navbar
+    var navbar = document.querySelector('.navbar');
 
-        // Se a página for rolada para baixo, esconda a bandeira e mostre a navbar
-        if (scrollPosition > 100) { // Quando o usuário rolar mais de 100px
-            bandeira.classList.add('escondido'); // Esconde a bandeira
-            navbar.classList.add('visible'); // Torna a navbar visível
-        } else {
-            bandeira.classList.remove('escondido'); // Mostra a bandeira novamente
-            navbar.classList.remove('visible'); // Torna a navbar invisível
-        }
+    // Se a página for rolada para baixo, diminui a altura da navbar
+    if (scrollPosition > 100) { // Quando o usuário rolar mais de 100px
+        navbar.classList.add('shrink'); // Adiciona a classe 'shrink' que diminui a altura
+    } else {
+        navbar.classList.remove('shrink'); // Remove a classe 'shrink' e a navbar volta ao tamanho normal
     }
+};
+
 </script>
 
 </html>
