@@ -71,7 +71,7 @@ Preço: R$29,00
 OBS: Serve 1 Pessoa
 
 ## Gelato di Florença ##
-Descrição: O verdadeiro gelato italiano é mais cremoso e saboroso que o sorvete comum, feito com ingredientes frescos e de alta qualidade. Com menos ar e gordura, oferece uma textura suave e um sabor concentrado. Disponível em diversos sabores autênticos, é a sobremesa perfeita para experimentar o sabor genuíno da Itália.
+Descrição: Disponível em diversos sabores autênticos, feito com ingredientes frescos e de alta qualidade. Com menos ar e gordura, oferece uma textura suave e um sabor concentrado.
 Preço: R$20,00
 OBS: Serve 1 Pessoa
 
