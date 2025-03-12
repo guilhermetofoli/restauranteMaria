@@ -82,6 +82,18 @@ OBS: Serve 1 Pessoa
 
 # BEBIDAS #
 
+## Água ##
+Preço: R$5,00
+
+## Água com gás ##
+Preço: R$6,00
+
+## Refrigerante ##
+Preço: R$10,00
+
+## Suco ##
+Preço: R$12,00
+
 ## Cafés ##
 
 ## Expresso di Turim ##
@@ -99,7 +111,7 @@ Descrição: Barolo Bussia tem coloração vermelha rubi brilhante e vibrante co
 Preço: R$595,00
 
 ## Brancaia Chianti ##
-Descrição: Aroma frutado de cerejas maduras espalha-se pela taça até que desabrocham nuances florais e de menta. Em boca, as frutas mostram-se ainda mais presentes, e unem-se ao anis e às nuances terrosas da Sangiovese. O final é fresco e estruturado - um convite à próxima taça.
+Descrição: Aroma frutado de cerejas maduras espalha-se pela taça até que desabrocham nuances florais e de menta. Em boca, as frutas mostram-se ainda mais presentes, e unem-se ao anis e às nuances terrosas da Sangiovese.
 Preço: R$790,00
 
 

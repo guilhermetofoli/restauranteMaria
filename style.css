@@ -52,11 +52,13 @@ body, html {
 /* Efeito de hover nos links */
 .navbar a:hover {
     color: #FFD700; /* Cor dourada ao passar o mouse */
+    text-decoration: underline;
 }
 
 /* Estilo do menu ativo (caso tenha) */
 .navbar a.active {
     color: #FFD700; /* Cor dourada quando ativo */
+    text-decoration: underline;
 }
 
 /* Reduz a altura da navbar quando rola para baixo */
@@ -102,7 +104,7 @@ body, html {
     flex-direction: column; /* Organiza os itens verticalmente */
     align-items: center; /* Centraliza os itens */
     width: 250px; /* Define a largura para cada prato */
-    padding: 20px;
+    padding: 30px;
     border: 1px solid #ccc;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
     background-color: #fff;
