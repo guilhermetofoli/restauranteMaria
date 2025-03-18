@@ -1,5 +1,5 @@
 /* Resetando margens e padding */
-body, html {
+body, html{
     margin: 0;
     padding: 0;
     height: 100%;
@@ -103,13 +103,15 @@ body, html {
 .comida {
     display: flex;
     flex-direction: column; /* Organiza os itens verticalmente */
-    align-items: center; /* Centraliza os itens */
+    align-items: center; /* Centraliza os itens na horizontal */
+    justify-content: center; /* Centraliza os itens na vertical */
     width: 250px; /* Define a largura para cada prato */
     padding: 30px;
     border: 1px solid #ccc;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
     background-color: #fff;
 }
+
 
 .comida img {
     width: 200px;   /* Ajusta a imagem para ocupar toda a largura da div */
@@ -118,6 +120,21 @@ body, html {
     border: solid 5px rgb(255, 255, 255);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
+
+.comida button {
+    color: #009246; /* Cor do preço */
+    font-weight: 1000; /* Negrito */
+    font-size: 25px;
+    margin: 10px 0;
+    border-radius: 75px;
+    border-color: #009246;
+    cursor: pointer;
+    display: inline-flex; /* Usado para permitir flexbox dentro do botão */
+    justify-content: center; /* Alinha o texto horizontalmente */
+    align-items: center; /* Alinha o texto verticalmente */
+    width: 50%; /* Faz o botão ocupar toda a largura disponível */
+}
+
 
 /* Estilo para o título */
 .comida h2 {
@@ -137,39 +154,62 @@ body, html {
 }
 
 /* Estilo para o preço (h4) */
+
 .comida h4 {
     color: #009246; /* Cor do preço */
     font-weight: 1000; /* Negrito */
     font-size: 25px;
-    margin: 30px 0;
+    margin: 10px 0;
+    text-align: center; /* Centraliza o texto */
+    margin-top: auto;
 }
+
 
 
 #rodape {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 10px 0;
     margin-top: 50px;
     background: #800020;  /* bAzul marinho 2C3E50 */
     color: white;
     display: flex;
+    text-decoration: none;
+    font-size: 1.2rem; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    transition: color 0.3s ease; /* Transição suave para a cor */
     justify-content: center;  /* Alinha os filhos no centro horizontal */
 }
 
+
 #boxfooter {
-    display: flex;
-    justify-content: space-between;  /* Coloca o espaço entre as colunas */
-    width: 100%;  /* Faz com que o container ocupe toda a largura */
+    display: flex;  /* Organiza os filhos em linha (lado a lado) */
+    justify-content: space-between; /* Espaço entre as colunas */
+    width: 100%;
+    padding: 20px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui padding no cálculo da largura */
 }
 
 #footer-esq, #footer-centro, #footer-dir {
-    flex: 1;  /* Faz com que cada uma das colunas ocupe a mesma largura */
     display: flex;
-    justify-content: center;  /* Centraliza o conteúdo horizontalmente */
-    align-items: center;  /* Centraliza o conteúdo verticalmente */
+    flex-direction: column; /* Organiza os itens verticalmente */
+    justify-content: center; /* Alinha o conteúdo verticalmente */
+    align-items: flex-start; /* Alinha o conteúdo à esquerda */
+    padding: 10px; /* Espaço interno das divs */
+    flex: 1; /* Cada div ocupa 1 parte do espaço disponível */
 }
 
-.texto1 {
-    text-align: center;  /* Garante que o texto dentro do elemento seja centralizado */
+#footer-esq p, #footer-centro p, #footer-dir p {
+    margin: 5px 0; /* Margem entre os parágrafos */
+    font-size: 14px; /* Ajuste o tamanho da fonte */
+    line-height: 1.5; /* Aumenta o espaçamento entre as linhas */
 }
+
+/* Responsividade: no celular, as colunas se empilham */
+@media (max-width: 768px) {
+    #boxfooter {
+        flex-direction: column; /* Organiza as divs verticalmente em telas pequenas */
+    }
+}
+
