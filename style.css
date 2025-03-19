@@ -213,3 +213,51 @@ body, html{
     }
 }
 
+#carrinho {
+    margin-top: 30px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#lista-carrinho {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lista-carrinho li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#adicionar {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#adicionar:hover {
+    background-color: #218838;
+}
+
+#finalizar-pedido {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#finalizar-pedido:hover {
+    background-color: #c0392b;
+}
+
